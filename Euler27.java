@@ -1,6 +1,6 @@
 public class Euler27 {
   
-  private int largest_so_far;
+  private int largest_so_far; // Largest number of consecutive primes
   
   public Euler27() {
     largest_so_far = 0;
@@ -23,15 +23,13 @@ public class Euler27 {
         }
       }
     }
-    System.out.println(largest_so_far);
-    return max_a*max_b;
+    System.out.println(largest_so_far); // Let's see what the largest number of consecutive primes is
+    return max_a*max_b; // Return the product
   }
   
   public static boolean isPrime(int num) {
-    for (int i = 2; i<= num/i; i++)
-    {
-      if (num % i == 0)
-      {
+    for (int i = 2; i<= num/i; i++) {
+      if (num % i == 0) {
         return false;
       }
     }
