@@ -1,3 +1,3 @@
 # ProjectEuler
 ---
-Problems completed as of 01/16/2019: 1 through 40, 48
+Problems completed as of 01/16/2019: 1 through 40, 43, 45, 48
